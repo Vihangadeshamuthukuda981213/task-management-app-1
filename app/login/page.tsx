@@ -140,14 +140,5 @@ export default function LoginPage() {
       </div>
     </div>
   )
+
 }
-```
-
----
-
-## Step 4: Check .env.local
-
-Make sure `.env.local` exists in the root with your Supabase credentials:
-```
-NEXT_PUBLIC_SUPABASE_URL=https://cxnroxpyiovobbogacob.supabase.co
-NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImN4bnJveHB5aW92b2Jib2dhY29iIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjI1NDA0MzIsImV4cCI6MjA3ODExNjQzMn0.DTP4cHgn8YHU706FHny8vyI_LZ884tsdfUSm9hgFqRw
